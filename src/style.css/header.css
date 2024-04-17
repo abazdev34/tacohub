@@ -1,0 +1,67 @@
+#header {
+	background: url('../components/header/img/div.header_wrap.png') no-repeat
+		center / cover;
+	width: 100%;
+	height: 180px;
+}
+
+.header {
+	display: flex;
+	justify-content: s;
+	align-items: center;
+}
+.logo {
+	border-right: 0.8px solid;
+	height: 100px;
+}
+
+span a {
+	color: rgb(171, 139, 83);
+}
+.header p {
+	color: #fff;
+	font-size: 12px;
+	font-weight: 100;
+}
+.header h1 {
+	font-size: 18px;
+	color: #fff;
+}
+.header h2 {
+	color: #fff;
+	margin-bottom: 50px;
+}
+a {
+	color: #fff;
+}
+
+.nav {
+	margin-top: 20px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	gap: 40px;
+}
+
+.tovar {
+	color: #fff;
+}
+.voti {
+	color: #fff;
+	width: 150px;
+	height: 30px;
+}
+.voti:hover {
+	color: #fff;
+	width: 150px;
+	height: 30px;
+	background: rgb(171, 139, 83);
+	padding: 10px 10px;
+}
+.blog {
+	color: #fff;
+	display: flex;
+	justify-content: center;
+	align-items: start;
+	gap: 10px;
+}
